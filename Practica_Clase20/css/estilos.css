@@ -1,0 +1,94 @@
+
+body{
+    font-family: Calibri;
+}
+
+table{
+    background-color:#FFC;
+    border:1px solid #666666;
+    margin:auto;
+    padding:25px;
+}
+
+h1{
+    width:50%;
+    margin:25px auto;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+body{
+    background-color:#bfbfbf;
+}
+
+#boton{
+    padding-top:25px;
+}
+
+h2.error {
+    color: red;
+}
+
+h2.guardado {
+    color: darkblue;
+}
+
+input[type='submit']{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+table.registros{
+    border-collapse: collapse;
+    font-size: 0.85em;
+    width:95%;
+    border:2px solid #666666;
+    margin:auto;                
+}
+
+table.registros th {
+    background: rgb(191, 191, 191);
+}
+
+table.registros td, th {
+    border:1px solid #999999;
+    width:100px;
+
+}
+
+table.registros tr th:first-child,
+table.registros tr td:first-child{
+    width:240px;
+    border:1px solid #999999;
+}
+
+table.registros tr th:nth-child(2),
+table.registros tr td:nth-child(2){
+    width:240px;
+    border:1px solid #999999;
+}
+
+table.registros td.fecha{
+    text-align: center;
+} 
+table.registros td.numero{
+    text-align: right;
+}
+
+thead.cabecera_Datos, 
+tbody.listado_Datos { 
+    display: block; 
+}
+
+tbody.listado_Datos {
+    height: 315px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+thead.cabecera_Datos {
+    height: 37px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+

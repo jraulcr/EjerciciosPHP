@@ -25,8 +25,10 @@
                 <tr><td><label>Descuento: </label></td><td><input type="text" name="desc"></td></tr>
                <!-- <tr><td><label>Subtotal: </label></td><td><input type="text" name="subtot"></td></tr>-->
 
-                <tr><td colspan="2" align="center" id="boton">  <input type="submit" name="guardar" value="Guardar"></td></tr>
-                
+                <tr><td colspan="2" align="center" id="boton">  
+                        <input type="submit" name="guardar" value="Guardar">
+                        <input type="submit" name="buscar" value="Buscar"></td></tr>
+
             </table>
         </form>
 
