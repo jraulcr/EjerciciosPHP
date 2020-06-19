@@ -1,0 +1,64 @@
+/* 
+    Created on : 19-jun-2020, 19:18:30
+    Author     : Juan Raúl Crespo
+*/
+
+*{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+body {
+    text-align:center;
+    margin: 0 auto;
+    padding:0px;
+    background: #999999;
+}
+#principal{
+    text-align:left;
+    margin: 0 auto;
+    padding:0px;
+    background: white;
+    width: 850px;
+}
+#banner{
+    background: url('imagenes/desert.jpg')  orange;
+    height: 150px;
+}
+#menu{
+    background: green;
+}
+#content{
+    width:100%;
+    float:left;
+    min-height: 500px;
+    background:white;
+}
+#contenido{
+    background: blue;
+    width:650px;
+    float:left;
+    min-height: 500px;
+}
+#mapa{
+    background: yellow;
+    width:200px;
+    float:right;
+}
+#pie{
+    background: red;
+}
+
+/* ***************** CSS PARA MAPA DE CONTACTOS ************************ */
+#map_canvas{
+    margin: 0 auto;
+    padding: 0 auto;
+    width:200px;
+    height:400px;
+}
+#mapa h1{
+    color:red;
+    font-size: 18px;
+    text-align: center;
+}

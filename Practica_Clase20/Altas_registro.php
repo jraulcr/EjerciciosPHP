@@ -15,7 +15,7 @@ $resultado->execute(array(
     ":ciu_des" => $bus_ciud_des,
     ":pre_uni" => $bus_precio_uni,
     ":cant" => $bus_cant,
-    ":desc" => $bus_desc,
+    ":desc" => $bus_desc
 ));
 
 //Verificamos si los registros se han registrado correctamente

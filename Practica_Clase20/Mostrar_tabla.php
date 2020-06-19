@@ -2,7 +2,8 @@
 
         echo ("<h1>Tabla de registro</h1>");
         echo "<table class='registros'>";
-        echo "<thead class='cabecera_Datos'><tr><th>Cliente	</th>";
+        echo "<thead class='cabecera_Datos'>";
+        echo "<tr><th>Cliente	</th>";
         echo "<th>Artículo	</th>";
         echo "<th>Fecha pedido</th>";
         echo "<th>Fecha entrega</th>";
